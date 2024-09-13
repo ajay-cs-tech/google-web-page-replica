@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #242425;
+    color:white;
+    /*padding: 14px;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+nav, section{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.greyLink{
+    color:lightgrey;
+}
+
+.whiteLink{
+    color:white;
+}
+
+a{
+    text-decoration: unset;
+    font-size: 0.8em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 14px;
+}
+
+.headerText{
+    font-size: 7em;
+}
+
+.searchBar{
+    display: flex;
+}
+
+.footerWhite{
+    color: white;
+}
+
+.searchBar{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 14px;
+    border: solid 1px grey;
+    padding: 14px;
+    border-radius: 24px;
+}
+
+
+.searchBar:hover{
+    border-color: transparent;
+    background: rgb(65, 60, 60);
+}
+
+.iconButtonContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonsLink{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input{
+    background: transparent;
+    border: unset;
+    outline: none;
+    color: white;
+    flex: 1;
+}
+
+.searchButtonsContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchButtonsContainer button{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background: #515155 ;
+    color: white;
+    border: 1px solid transparent;
+    cursor:  pointer;
+
+}
+
+.searchButtonsContainer button:hover{
+    border: 1px solid darkgrey;
+}
+
+.langSelection{
+    font-size: 0.9em;
+
+}
+
+.langSelection span{
+    color: lightblue;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > section:last-child{
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+footer > section{
+    padding: 14px;
+}
+
+.footerLink{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
